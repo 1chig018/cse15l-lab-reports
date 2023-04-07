@@ -3,4 +3,5 @@ This is a tutorial for incoming cse15L students as well as future me on how to l
 __Step 1: Install VSCode__<br/>
 * Go to https://code.visualstudio.com/ and download VSCode according to your operating system.
 * After installation, you should get something like this: <br/>
-![Image] (vscode.jpg)
+![Image](vscode1.png) <br/>
+__Step 2: Install git and make git bash your terminal for login in server__ <br/>
