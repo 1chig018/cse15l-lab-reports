@@ -1,3 +1,4 @@
+# Lab 1 <br/>
 This is a tutorial for incoming cse15L students as well as future me on how to login to the course-specific account on ieng6. <br/>
 <br/>
 The tutorial is conducted on windows and screenshots are taken accordingly. For commands on macOS, go to https://ucsd-cse15l-s23.github.io/week/week1/ for more information. <br/>
