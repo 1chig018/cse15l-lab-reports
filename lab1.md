@@ -28,5 +28,10 @@ This process could be troublesome so make sure you ask TAs for help if anything 
 <br/>
 __Step 4: Run some command lines in bash terminal__<br/>
 Try some command lines: <br/>
-![Image](vscode3.1)<br/>
-![Image](vscode3.2)<br/>
+![Image](vscode3.1.png)<br/>
+![Image](vscode3.2.png)<br/>
+The command "pwd" prints out current working directory which, in this case, the directory on the server. <br/>
+The command "ls .../cs15lsp23op" tries to access to another account's directory which is denied. <br/>
+The command "exit" is used to logout the server. <br/>
+<br/>
+This is the end of the tutorial.
