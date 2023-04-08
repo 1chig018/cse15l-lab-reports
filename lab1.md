@@ -27,3 +27,6 @@ If login successfully, it will show something like this: <br/>
 This process could be troublesome so make sure you ask TAs for help if anything is not working :^) <br/>
 <br/>
 __Step 4: Run some command lines in bash terminal__<br/>
+Try some command lines: <br/>
+![Image](vscode3.1)<br/>
+![Image](vscode3.2)<br/>
