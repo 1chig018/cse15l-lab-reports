@@ -11,7 +11,7 @@ __Step 2: Install git and make git bash your terminal for login server__<br/>
 Go to https://gitforwindows.org/ and download git for windows.<br/>
 Go to https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994 and change the terminal in vscode to bash terminal.<br/>
 <br/>
-__Step 3: login to server__<br/>
+__Step 3: Login to server__<br/>
 Find your course specific account at https://sdacs.ucsd.edu/~icc/index.php <br/>
 You might need to reset your password if you are logging in for the first time. <br/>
 A tutorial for resetting password could be found here https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?usp=share_link <br/>
@@ -19,3 +19,10 @@ Once you're set, go to bash terminal in vscode and type in "ssh" followed by you
 If it shows "connection denied by host" or something like that, try adding "-202" which appoints to a specific server following "@ieng6" <br/>
 For the first time login, it may ask to whether to continue connecting or not; type yes in command <br/>
 You will get something like this: <br/>
+![Image](vscode2.1.png) <br/>
+Note that neither the cursor nor input will show in this case. If your password is wrong, it will ask for it again like the example above.<br/>
+If login successfully, it will show something like this: <br/>
+![Image](vscode2.2.png) <br/>
+This process could be troublesome so make sure you ask TAs for help if anything is not working :^) <br/>
+<br/>
+__Step 4: Run some command lines in bash terminal__<br/>
