@@ -30,7 +30,7 @@ __Screen Shot for__  ```/add-message?s=Hello``` __&__ ```/add-message?s=How are 
 __Screen Shot for__ no request given: <br/>
 ![Image](lab2_1.2.png)
 <br/>
-When either no request nor no correct query is given, the method ```handleRequest``` returns 404 and displayed it.
+* When either no request nor no correct query is given, the method ```handleRequest``` returns 404 and displayed it.
 <br/>
 <br/>
 ## Part 2
@@ -44,3 +44,22 @@ The origninal code with bug is: <br/>
     return arr;
   }``` <br/>
   which attempts to return an array of the elements in input array in reverse order.<br/>
+A failure-inducing input is: <br/>
+``` @Test
+  public void testReversedIncorrect() {
+    int[] input1 = {1,2,3,4};
+    assertArrayEquals(new int[]{4,3,2,1}, ArrayExamples.reversed(input1));
+  }```<br/>
+An input that doesn't cause a failure: <br/>
+``` @Test
+  public void testReversedCorrect() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }```<br/>
+The symptom of the program: <br/>
+![Image](lab2_2.1.png) <br/>
+The screenshot shows only the incorrect test and we can see that the returned array has different element in the first index as expected which is the same as the original array, "1". <br/>
+The program attempts to reverse the array by creating an array of equal length as the input array and assigns the element from input array to new array in reverse order.<br/>
+The lines that need to be fixed are: ```arr[i] = newArray[arr.length - i - 1];``` and ```return arr;```<br/>
+The fixed lines should be ```newArray[i] = arr[arr.length - i - 1];``` which assigns the last ith element to the ith element of new array. <br/>
+and ```return newArray;```<br/> which return the correct reversed array.<br/>
