@@ -16,9 +16,9 @@ __Step 3: Login to server__<br/>
 Find your course specific account at <https://sdacs.ucsd.edu/~icc/index.php> <br/>
 You might need to reset your password if you are logging in for the first time. <br/>
 A tutorial for resetting password could be found here <https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?usp=share_link> <br/>
-Once you're set, go to bash terminal in vscode and type in "ssh" followed by your course specific username + "@ieng6.ucsd.edu" <br/>
+Once you're set, go to bash terminal in vscode and type in ```ssh``` followed by your course specific username + "@ieng6.ucsd.edu" <br/>
 If it shows "connection denied by host" or something like that, try adding "-202" which appoints to a specific server following "@ieng6" <br/>
-For the first time login, it may ask to whether to continue connecting or not; type yes in command <br/>
+For the first time login, it may ask to whether to continue connecting or not; type ```yes``` in command <br/>
 You will get something like this: <br/>
 ![Image](vscode2.1.png) <br/>
 Note that neither the cursor nor input will show in this case. If your password is wrong, it will ask for it again like the example above.<br/>
@@ -30,8 +30,8 @@ __Step 4: Run some command lines in bash terminal__<br/>
 Try some command lines: <br/>
 ![Image](vscode3.1.png)<br/>
 ![Image](vscode3.2.png)<br/>
-The command "pwd" prints out current working directory which, in this case, the directory on the server. <br/>
-The command "ls .../cs15lsp23op" tries to access to another account's directory which is denied. <br/>
-The command "exit" is used to logout the server. <br/>
+The command ```pwd``` prints out current working directory which, in this case, the directory on the server. <br/>
+The command ```ls .../cs15lsp23op``` tries to access to another account's directory which is denied. <br/>
+The command ```exit``` is used to logout the server. <br/>
 <br/>
 This is the end of the tutorial.
