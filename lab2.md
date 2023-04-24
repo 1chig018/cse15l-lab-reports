@@ -15,6 +15,7 @@ __Screen Shot for__  ```/add-message?s=Hello``` <br/>
 * ```url.getQuery()``` gets the query from the url and determines the value to stroe in the string field.
 * There are also minor methods like ```parseInt()``` and ```equals()``` but they are mainly for modifying Strings, not handling the requests.
 * In this request, the value of field "str" is changed as the string value from the query is added to it and gets displayed.
+<br/>
 __Screen Shot for__  ```/add-message?s=Hello``` __&__ ```/add-message?s=How are you```<br/>
 ![Image](lab2_1.3.png) <br/>
 <br/>
