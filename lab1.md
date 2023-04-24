@@ -29,6 +29,11 @@ This process could be troublesome so make sure you ask TAs for help if anything 
 __Step 4: Run some command lines in bash terminal__<br/>
 Try some command lines: <br/>
 ![Image](vscode3.1.png)<br/>
+For the commands in the above image, <br/>
+I use ```pwd``` to print out the working directory to see where am I at on the server<br/>
+Then ```cd``` to make sure I'm at the home directory as it makes you go back to previous directory when not following by any other path<br/>
+The next command is ```cp /home/linux/ieng6/cs15lsp23oz/public/hello.txt ~/``` which copies the "hello.txt" file from "public" directory to home directory<br/>
+The ```cat``` command prints out the content of "hello.txt" file in the "public" directory <br/>
 ![Image](vscode3.2.png)<br/>
 The command ```pwd``` prints out current working directory which, in this case, the directory on the server. <br/>
 The command ```ls .../cs15lsp23op``` tries to access to another account's directory which is denied. <br/>
