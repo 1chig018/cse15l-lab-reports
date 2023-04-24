@@ -62,6 +62,6 @@ The screenshot shows only the incorrect test and we can see that the returned ar
 The program attempts to reverse the array by creating an array of equal length as the input array and assigns the element from input array to new array in reverse order.<br/>
 The lines that need to be fixed are: ```arr[i] = newArray[arr.length - i - 1];``` and ```return arr;```<br/>
 The fixed lines should be ```newArray[i] = arr[arr.length - i - 1];``` which assigns the last ith element to the ith element of new array. <br/>
-and ```return newArray;``` which return the correct reversed array. <br/>
+and ```return newArray;``` which returns the correct reversed array. <br/>
 ## Part 3
 The first thing I've learned in these 2 labs is the step to handle a http request. The first few slashes which type of requests the program should handle and then it goes to indicate the input or query and make corresponding reponse. The server is also consisted of port and when one port is in used, it will cause trouble for others(or even yourself) to start your server on that port. Another thing I've learned is github allows us push our changes with comments so we can refer to these changes in different checkpoint to compare the program. When I go to the fork I pushed, I can see the same file with "checkpoint2" and "checkpoint3" to compare them and see the changes I made.
