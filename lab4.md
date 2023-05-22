@@ -11,3 +11,5 @@ Step 4: Edit the code file <br/>
 Command: ```vim ListE <tab> .java <enter> <i> <up><up><up><up><up><up> <right><right><right><right><right> <bckspc> <2> <esc> :wq <enter>```<br/>
 Step 5: Run the tests again <br/>
 Command: ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ...```<br/>
+Step 6: Push the changes <br/>
+Command: 
