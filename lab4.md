@@ -23,5 +23,5 @@ The command rerun the tester to show the change works. <br/>
 Step 6: Push the changes <br/>
 ![Image](step6.3.png)<br/>
 ![Image](step6.4.png)<br/>
-Command: ```git add List<tab>.java <enter> git commit -m "update" <enter> git push <enter> 1chig018 <enter> "Password" <enter>```
+Command: ```git add List<tab>.java <enter> git commit -m "update" <enter> git push <enter> 1chig018 <enter> "Password" <enter>```<br/>
 The command push the changed file back to github.
