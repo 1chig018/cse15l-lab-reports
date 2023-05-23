@@ -17,4 +17,6 @@ Step 5: Run the tests again <br/>
 ![Image](step5.2.png)<br/>
 Command: ```java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests```<br/>
 Step 6: Push the changes <br/>
-Command: 
+![Image](step6.3.png)<br/>
+![Image](step6.4.png)<br/>
+Command: ```git add List<tab>.java <enter> git commit -m "update" <enter> git push <enter> 1chig018 <enter> "Password" <enter>```
