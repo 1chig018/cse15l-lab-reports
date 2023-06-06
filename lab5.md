@@ -63,3 +63,4 @@ public class Lab5 {
 Command Lines Runned: ```javac Lab5.java java Lab5 1234``` <br/>
 Fix to the Bug: add 1 before recur to add the current count. <br/>
 # Part 2 Reflection
+In this class, I learned how to create and execute scripts, enabling automation of tasks and boosting efficiency in the command line. By mastering variables, conditionals, loops, and functions, I gained the ability to manipulate data and perform complex operations. Additionally, I explored file management, understanding how to navigate directories, manipulate files, and apply regular expressions for powerful pattern matching. Through this class, I developed a strong foundation in bash scripting, empowering me to streamline processes and harness the full potential of the command line.
